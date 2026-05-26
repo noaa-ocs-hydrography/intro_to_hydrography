@@ -1,0 +1,32 @@
+div.page {
+	page-break-after: always;
+	}
+	
+img {
+	display: block;
+	}
+	
+table {
+	border-style: solid;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	}
+	
+table th,
+table td {
+	border-style: solid;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	}
+	
+#header #nav {
+	display: none;
+}
+
+.topnav {
+	display: none;
+}
+		
+div.innerNode {
+	page-break-after: avoid;
+}

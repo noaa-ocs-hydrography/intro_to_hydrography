@@ -1,0 +1,172 @@
+/* This stylesheet controls the layout of the core version */
+
+/* GENERAL LAYOUT */
+
+body {
+	text-align: center;
+	background-color: #000;
+	}
+
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #fff;
+	}
+	
+#header {
+	background-color: #ccced7;
+	}
+	
+#nav {
+	padding-left: 10px;
+	background-color: #a6a7b0;
+	}
+	
+#tableofcontents {
+	padding: 10px;
+	}
+
+#tableofcontents ul ul {
+	margin-top:3px;
+	margin-left:10px;
+	}
+
+#tableofcontents ul ul ul {
+	margin-top:3px;
+	margin-left:20px;
+	}
+	
+#tableofcontents ul li {
+	list-style:none;
+	font-size:1.2em;
+	}
+	
+#tableofcontents ul li li {
+	list-style:none;
+	font-weight: normal;
+	font-size:1.0em;
+	}
+	
+#tableofcontents ul li li li{
+	list-style:none;
+	font-weight: normal;
+	font-size:0.8em;
+	}
+	
+#maincontent {
+	padding: 20px 10px;
+	}
+	
+#footer {
+	clear: both;
+	margin-top: 2em;
+	padding: 1em 0;
+	color: #fff;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	background-color: #333;
+	}
+	
+/* HEADER */
+
+#header h1 {
+	height: 75px;
+	text-indent: -10000px;
+	overflow: hidden;
+	background: url(media/graphics/interface/topbar.jpg) top left no-repeat;
+	}
+	
+#header h2 {
+	display: none;
+	}
+	
+/* NAVIGATION */
+
+#nav ul li {
+	float: left;
+	}
+	
+#nav ul li a,
+#nav ul li.here {
+	display: block;
+	margin: 4px 2px 0 2px;
+	padding: 5px 5px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #466398;
+	background-color: #dfe0ec;
+	}
+	
+#nav ul li.here {
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+	}
+	
+#nav ul li a:hover {
+	background-color: #e3e4f8;
+	}
+	
+/* MAIN CONTENT */
+
+h2.page_title {
+	margin-bottom: 1em;
+	padding: 0px;
+	font-size: 1.6em;
+	background-color: transparent;
+	}
+	
+div#tech_notes h3 { /* hides the extra h3 pulled in from the technotes.txt file */
+	display: none;
+	}
+	
+div.page {
+	clear: both;
+	margin: 0;
+	padding: 0 0 1em 0;
+	}
+
+.topnav {
+	text-align:right;
+	margin-bottom: 1em;
+	}	
+
+div.topnav a {
+	font-size: 1em;
+	}
+
+div.page.innerNode {
+	margin: 0;
+	padding: 0;
+}
+
+div.page.innerNode h2 {
+	margin: 0;
+	padding: 5px;
+}
+	
+/* DOWNLOAD PAGE */
+
+div#dl_agree h2 {
+	background-color: transparent;
+	}
+	
+/* FOOTER */
+
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+	}
+
+/*to hide stuff in the print version that is to be displayed in the module version*/	
+.print_hide {
+	display: none;
+	}
+#maincontent.contributors ul {
+	margin-left:20px;
+}
+#maincontent.contributors li {
+	list-style-type: none;
+}
